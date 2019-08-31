@@ -1,14 +1,16 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# China Tea Company
+--
+
+Overview:
+
+### What is this app for?
+
+It is a place to order Chinese tea and tea-ware online
 
 
-Hi there! Welcome to AWS Cloud9!
+### What does it do?
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+It provide a simple website that that provides information about the products and services China Tea Company.
 
-Happy coding!
+
+### 
