@@ -26,7 +26,7 @@ As a traditional tea drinker I want to be made aware of teas from an origin whic
 
 
 
-For wireframes used please see chinateacompany.pdf or chinateacompany.png
+For wireframes used please see chinateacompany.pdf
 
 ## Technologies
 
