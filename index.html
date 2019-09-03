@@ -14,12 +14,27 @@
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbar-home">Home</a>
-        <ul class="navbar-nav">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Shop</a></li>
-            <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="/sign-in">Sign-in Sign-up</a></li>
+
+
+        <ul class="navbar-nav mx-auto">
+            <li class="active nav-item "><a class="nav-link" href="/">Shop</a></li>
+   
+
         </ul>
+
+     
+
+        <div class="d-none d-md-block">
+            <ul class="navbar-nav ml-auto ">
+
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sign-in">Sign-in Sign-up</a></li>
+            </ul>
+        </div>
+
     </nav>
+
+
     <article class="container-fluid">
 
         <!----Callout----->
@@ -111,10 +126,12 @@
 
         <!------newsletter jumbotron----->
 
-        <section class="newsletter">
+        <section class="newsletter jumbotron">
 
             <h3>Sign up for our newsletter</h3>
             <p>Sign up for out monthly newsletter for the latest on our products and special offers</p>
+            
+            <button type="button" class="btn btn-success">Sign Up</button>
 
 
 
