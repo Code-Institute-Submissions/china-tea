@@ -33,7 +33,7 @@ For wireframes used please see chinateacompany.pdf
 1. HTML
 2. CSS
 3. Bootstrap (4.3.1.)
-4. Font Awsome (4.7.0)
+4. Font Awsome (5.1.1)
 
 
 ### What are the features?
