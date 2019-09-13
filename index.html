@@ -14,7 +14,7 @@
 
 <body>
 
-    <!----------navbar------>
+    <!-- navbar -->
 
 
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
@@ -28,15 +28,14 @@
 
             <ul class="navbar-nav mx-auto">
                 <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Shop
+                    <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop
   </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="#">Teabags</a>
                         <a class="dropdown-item" href="#">Loose Tea</a>
                         <a class="dropdown-item" href="#">Teaware</a>
-                         <a class="dropdown-item" href="#">Giftboxes</a>
+                        <a class="dropdown-item" href="#">Giftboxes</a>
                     </div>
                 </div>
 
@@ -55,30 +54,30 @@
         </div>
     </nav>
 
-    <!--------------/.navbar------>
+    <!-- /.navbar -->
 
 
     <article class="container-fluid">
 
-        <!----Callout----->
-
+        <!--Callout-->
+   <section class="callout">
         <div class="row">
-            <section class="callout">
+          
                 <h1>The China Tea Company</h1>
-                <h4 class="text-muted">Since 1992</h4>
+                <h4 class="1992 text-muted">Since 1992</h4>
         </div>
         <div class="row">
-            <h1>Discover Chinese tea</h1>
+            <h2>Discover Chinese tea</h2>
         </div>
 
         <div class="row">
-            <p><strong><mark>Sign up now for special offers</strong></mark>
+            <p><mark><strong>Sign up now for special offers</strong></mark>
             </p>
         </div>
         <div class="row">
-            <button type="button" class="btn btn-outline-warning">Sign up!</button>
+            <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#signUpModal">Sign up!</button>
         </div>
-        </div>
+    
 
         <div class="row">
             <div class="col-12 col-sm-4">
@@ -94,9 +93,9 @@
 
         <hr>
 
-        <!----/.Callout----->
+        <!--/.Callout-->
 
-        <!-----Purchase------>
+        <!--Purchase-->
 
         <section class="purchases">
             <div class="row">
@@ -113,7 +112,6 @@
                     </div>
                 </div>
             </div>
-
 
 
 
@@ -145,24 +143,24 @@
 
         <hr>
 
-        <!-----/.purchase------->
+        <!--/.purchase-->
 
-        <!------newsletter jumbotron----->
+        <!--newsletter jumbotron-->
 
         <section class="newsletter jumbotron text-center">
 
             <h3>Sign up for our newsletter!</h3>
             <p class="d-none d-sm-block">Sign up for out monthly newsletter for the latest on our products and special offers</p>
 
-            <button type="button" class="btn btn-success">Sign Up</button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
 
 
 
         </section>
 
-        <!-------/.newsletter jumbotron----->
+        <!--/.newsletter jumbotron-->
 
-        <!------Instagram------>
+        <!--Instagram-->
         <hr>
         <section class="instagram">
             <div class="row">
@@ -179,21 +177,21 @@
             </div>
         </section>
         <hr>
-        <!------/.Instagram------>
+        <!--/.Instagram-->
 
-        <!------address------>
+        <!--address-->
 
         <section class="address">
             <div class="row">
                 <div class="col-12 col-sm-4">
                 </div>
                 <div class="col-12 col-sm-4">
-                    <h4>
-                        <center>The China Tea Company</center>
+                    <h4 class="mx-auto">
+                    The China Tea Company
                     </h4>
-                    <p>
+                    <h5>
                         <center>1 The Court Stables Market London NW1 8DU</center>
-                    </p>
+                    </h5>
                 </div>
                 <div class="col-12 col-sm-4">
 
@@ -204,30 +202,77 @@
         </section>
 
 
-        <!------/.address------>
+        <!--/.address-->
         <hr>
 
         <p>
             <center>info@thechinateacompany.com</center>
         </p>
 
-        </section>
+      
 
 
 
 
     </article>
+    
+    <!--Modal-->
+    
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+              <div class="form-group">
+   
+    <input type="password" class="form-control" id="firstName" placeholder="First Name">
+        <input type="password" class="form-control" id="lastName" placeholder="Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Choose password">
+  </div>
+   <label for="message">Message</label>
+    <textarea class="form-control" id="message" rows="3"></textarea>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I want to receive your newsletter</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!--/.Modal-->
 
     <hr>
 
-    <!-------footer----->
+    <!--footer-->
 
-    <i class="fab fa-facebook-f" style="font-size:60px;color:grey;"></i>
-    <i class="fab fa-youtube" style="font-size:60px;color:grey;"></i>
-    <i class="fab fa-twitter" style="font-size:60px;color:grey;"></i>
+
+    <div class="social-media">
+        <i class="fab fa-facebook-f" style="font-size:60px;color:grey;"></i>
+        <i class="fab fa-youtube" style="font-size:60px;color:grey;"></i>
+        <i class="fab fa-twitter" style="font-size:60px;color:grey;"></i>
+    </div>
+
     <p><small>All our products are ethically sourced</small></p>
 
-    <!-------/.footer---->
+    <!--/.footer-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
