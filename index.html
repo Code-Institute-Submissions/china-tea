@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Source+Code+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css" type="text/css" />
     <title>China Tea Company | Buy specially imported tea, tea-ware and gift boxes</title>
 </head>
 
 <body>
+    
+        <div class="container-fluid callout-container">
 
     <!-- navbar -->
 
 
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+    <nav class="navbar transparent navbar-expand-sm">
         <a href="/" class="navbar-home">Home</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,14 +60,16 @@
     <!-- /.navbar -->
 
 
-    <article class="container-fluid">
+   
 
         <!--Callout-->
         <section class="callout">
             <div class="row">
 
                 <h1>The China Tea Company</h1>
-                <h4 class="1992 text-muted">Since 1992</h4>
+                <div>
+                    <h4 class="since text-muted">Since 1992</h4>
+                </div>
             </div>
             <div class="row">
                 <h2>Discover Chinese tea</h2>
@@ -92,10 +96,26 @@
             </div>
         </section>
 
-        <hr>
 
         <!--/.Callout-->
+    </div>
 
+    <div class="container-fluid buffer-container">
+        <!--purchase buffer-->
+<div class="row">
+    <div class="col-4 cup-leafs"
+        <img src="/assets/images/cup-leafs.jpg" alt="Snow" style="width:100%">
+    </div>
+    <div class="col-4 buffer-text"></div>
+    <div class="col-4 cup-tea"></div>
+</div>
+
+    </div>
+
+    <!--/.purchase buffer-->
+
+
+    <div class="container purchase-container">
         <!--Purchase-->
 
         <section class="purchases">
@@ -146,21 +166,27 @@
 
         <!--/.purchase-->
 
-        <!--newsletter jumbotron-->
-        <div class="container">
-            <section class="newsletter jumbotron text-center">
-
-                <h3>Sign up for our newsletter!</h3>
-                <p class="d-none d-sm-block">Sign up for out monthly newsletter for the latest on our products and special offers</p>
-
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+    </div>
 
 
 
-            </section>
-        </div>
-        <!--/.newsletter jumbotron-->
+    <!--newsletter jumbotron-->
+    <div class="container jumbotron-container">
+        <section class="newsletter jumbotron text-center">
 
+            <h3>Sign up for our newsletter!</h3>
+            <p class="d-none d-sm-block">Sign up for out monthly newsletter for the latest on our products and special offers</p>
+
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+
+
+
+        </section>
+    </div>
+    <!--/.newsletter jumbotron-->
+
+
+    <div class="container instagram-container">
         <!--Instagram-->
         <hr>
         <section class="instagram">
@@ -179,6 +205,10 @@
         </section>
         <hr>
         <!--/.Instagram-->
+
+    </div>
+
+    <div class="container address-container">
 
         <!--address-->
 
@@ -204,18 +234,18 @@
 
 
         <!--/.address-->
-        <hr>
 
-        <p>
-            <center>info@thechinateacompany.com</center>
-        </p>
+    </div>
+    <hr>
 
-
-
-
+    <p>
+        <center>info@thechinateacompany.com</center>
+    </p>
 
 
-    </article>
+
+
+
 
     <!--Modal-->
 
@@ -265,19 +295,21 @@
     <!--/.Modal-->
 
     <hr>
+    <div class="container footer-container">
+        <!--footer-->
 
-    <!--footer-->
 
+        <div class="social-media">
+            <i class="fab fa-facebook-f" style="font-size:60px;color:grey;"></i>
+            <i class="fab fa-youtube" style="font-size:60px;color:grey;"></i>
+            <i class="fab fa-twitter" style="font-size:60px;color:grey;"></i>
+        </div>
 
-    <div class="social-media">
-        <i class="fab fa-facebook-f" style="font-size:60px;color:grey;"></i>
-        <i class="fab fa-youtube" style="font-size:60px;color:grey;"></i>
-        <i class="fab fa-twitter" style="font-size:60px;color:grey;"></i>
+        <p><small>All our products are ethically sourced</small></p>
+
+        <!--/.footer-->
+
     </div>
-
-    <p><small>All our products are ethically sourced</small></p>
-
-    <!--/.footer-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
