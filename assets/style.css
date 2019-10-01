@@ -7,33 +7,60 @@ body {
 
 .callout-container {
     height: 100vh;
+box-shadow: 0 30px;
 
     background: url("images/main-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+ 
+
 }
+
 .since {
     position: relative;
     left: 327px;
     top: 40px;
 }
 
-.buffer-container{
+.buffer-container {
     height: 33vh;
-   
-   }
+
+    background: url("images/tea-1869594.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+}
 
 .cup-leafs {
     height: 33vh;
-     
-    
 
-.purchase-container {}
+}
+
+.purchase-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
 
 .jumbotron-container {}
 
 .instagram-container {}
 
 .address-container {}
+
+.footer-container {
+    height: 40vh;
+
+    background: url("images/footer.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
