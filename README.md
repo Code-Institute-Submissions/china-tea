@@ -34,6 +34,7 @@ For wireframes used please see chinateacompany.pdf
 2. CSS
 3. Bootstrap (4.3.1.)
 4. Font Awsome (5.1.1)
+5. W3 validation service
 
 
 ### What are the features?
@@ -80,5 +81,13 @@ main-background.jpg: https://www.tryfoto.com/public/uploads/preview/green-tea-31
 samples.jpg: https://postroniepiekna.pl/uploads/images/Gallery/opazenia_herbata.jpg
 tea-bags: https://www.sustainability-times.com/wp-content/uploads/2018/04/tee_tea_bags_teas_drink_herbal_tea_fruit_tea_tea_box_box-815312-300x199.jpg
 
+https://yogamasti.co.uk/wp-content/uploads/2018/11/tea-1869594_960_720-162x220.jpg
+
 __Note:__  All images were used for educational purposes only.
 
+
+
+Testing:
+
+html and css code tested using w3 validation markup service and amendments made
+Images of products tested as not working in the format of the original framework
