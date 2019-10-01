@@ -1,3 +1,7 @@
+
+/*body*/
+
+
 body {
     font-family: 'Indie Flower', cursive;
     font-family: 'Source Code Pro', monospace;
@@ -35,19 +39,21 @@ box-shadow: 0 30px;
     background-size: cover;
 }
 
-}
 
-.cup-leafs {
-    height: 33vh;
 
-}
 
-.purchase-container {
-    display: flex;
-    align-items: center;
-    justify-content:center;
+
+
+
     
+.individual-purchase {
+    text-align: center;
+    display: inline-block;
 }
+
+
+
+
 
 .tea-bags-img {
     height:10vh;
@@ -58,11 +64,18 @@ box-shadow: 0 30px;
 
 
 
-.jumbotron-container {}
+.jumbotron {
+    background-color: transparent
+}
 
 .instagram-container {}
 
 .address-container {}
+
+.address {
+    text-align: center;
+    display: inline-block;
+}
 
 .footer-container {
     height: 40vh;
