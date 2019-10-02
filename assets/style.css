@@ -1,6 +1,4 @@
-
 /*body*/
-
 
 body {
     font-family: 'Indie Flower', cursive;
@@ -11,7 +9,7 @@ body {
 
 .callout-container {
     height: 100vh;
-box-shadow: 0 30px;
+
 
     background: url("images/main-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -19,7 +17,7 @@ box-shadow: 0 30px;
     -o-background-size: cover;
     background-size: cover;
 
- 
+
 
 }
 
@@ -27,6 +25,12 @@ box-shadow: 0 30px;
     position: relative;
     left: 327px;
     top: 40px;
+}
+
+.block-divider-lg {
+    display: block;
+    background-color: #3e1010;
+    height: 7px;
 }
 
 .buffer-container {
@@ -41,11 +45,27 @@ box-shadow: 0 30px;
 
 
 
+.purchase-container {
+
+
+    background: url("images/traditional-chinese-3666268.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
 
 
 
+.purchase {
+    position: relative;
+    top: 600px;
+}
 
-    
+
+
 .individual-purchase {
     text-align: center;
     display: inline-block;
@@ -58,10 +78,13 @@ box-shadow: 0 30px;
 
 .block-divider {
     width: 150px;
-    background-color:#944149;
+    background-color: #944149;
 }
 
-
+.sub-section {
+    position: relative;
+    top: 100px;
+}
 
 .jumbotron {
     background-color: transparent
