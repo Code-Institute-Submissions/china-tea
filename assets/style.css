@@ -59,16 +59,44 @@ body {
 
 
 
-.purchase {
-    position: relative;
-    top: 600px;
+.just-product-images {
+    border: solid;
+    color: #3e1010;
+
+
 }
+
+
+
+.selection-text {
+    font-weight: bolder;
+
+}
+
+
+.purchase {
+
+    padding-top: 600px;
+    padding-bottom: 150px;
+}
+
+.purchase-text {
+
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+
 
 
 
 .individual-purchase {
     text-align: center;
     display: inline-block;
+    padding: 0;
+
 }
 
 
@@ -81,13 +109,23 @@ body {
     background-color: #944149;
 }
 
-.sub-section {
-    position: relative;
-    top: 100px;
-}
+
 
 .jumbotron {
     background-color: transparent
+}
+
+.btn-sign-up {
+    border-radius: 35px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.btn-sign-up:hover {
+     background-color: #395d41;
+     border-color: black;
 }
 
 .instagram-container {}
@@ -97,6 +135,7 @@ body {
 .address {
     text-align: center;
     display: inline-block;
+  
 }
 
 .footer-container {
