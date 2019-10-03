@@ -1,16 +1,22 @@
 /*body*/
 
+
+
 body {
+    margin:0;
     font-family: 'Indie Flower', cursive;
     font-family: 'Source Code Pro', monospace;
 }
+
+
+/*callout*/
 
 
 .callout-container {
     height: 100vh;
 
 
-    background: url("images/main-background.jpg") no-repeat center center fixed;
+    background: url("images/tea-2238290.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,9 +32,17 @@ body {
     top: 10%;
 }
 
+.lead-paragraph {
+    padding-top: 3vh;
+}
+
+
+/*divider*/
+
+
 .block-divider-lg {
     display: block;
-    background-color: #3e1010;
+    background-color: #3e1010; /*deep red*/
     height: 1vh;
 }
 
@@ -45,6 +59,8 @@ body {
 }
 
 
+
+/*purchase section*/
 
 .purchase-container {
 
@@ -104,7 +120,7 @@ body {
 
 
 
-
+/*jumbotron*/
 
 
 
@@ -124,6 +140,9 @@ body {
      background-color: #395d41;
      border-color: black;
 }
+
+
+/*instagram*/
 
 .instagram-container {
  
@@ -147,6 +166,9 @@ h1 {
     
     
 }
+
+
+/*address*/
 
 .address-container {
     padding-top: 5vh;
