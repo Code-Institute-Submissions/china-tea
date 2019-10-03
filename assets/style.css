@@ -6,7 +6,6 @@ body {
 }
 
 
-
 .callout-container {
     height: 100vh;
 
@@ -23,8 +22,8 @@ body {
 
 .since {
     position: relative;
-    left: 327px;
-    top: 40px;
+    left: 50%;
+    top: 10%;
 }
 
 .block-divider-lg {
@@ -32,6 +31,8 @@ body {
     background-color: #3e1010;
     height: 7px;
 }
+
+
 
 .buffer-container {
     height: 33vh;
@@ -76,8 +77,8 @@ body {
 
 .purchase {
 
-    padding-top: 600px;
-    padding-bottom: 150px;
+    padding-top: 250px;
+    padding-bottom: 100px;
 }
 
 .purchase-text {
@@ -104,10 +105,6 @@ body {
 
 
 
-.block-divider {
-    width: 150px;
-    background-color: #944149;
-}
 
 
 
@@ -128,7 +125,22 @@ body {
      border-color: black;
 }
 
-.instagram-container {}
+.instagram-container {
+ 
+    
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
+.fa-instagram   {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+}
 
 .address-container {}
 
@@ -137,6 +149,7 @@ body {
     display: inline-block;
   
 }
+
 
 .footer-container {
     height: 40vh;
