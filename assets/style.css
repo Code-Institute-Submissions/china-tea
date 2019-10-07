@@ -6,6 +6,17 @@ body {
     margin:0;
     font-family: 'Indie Flower', cursive;
     font-family: 'Source Code Pro', monospace;
+
+}
+
+/*Navbar*/
+
+.navbar li a {
+    color:rgb(150, 29, 7);
+}
+
+.contactUs {
+    padding-right:10em;
 }
 
 
@@ -26,8 +37,23 @@ body {
 
 }
 
+.dropdown-menu-mobile {
+    list-style-type: none;
+    padding:0;
+text-align: left;
+}
+
+.dropdown-item {
+    color:#3e1010; /*deep red*/
+
+}
+
+.navbar-toggler-icon {
+  color:red;
+}
+
 .since {
-    color: #3e1010;
+    color: #3e1010; /*deep red*/
     position: relative;
     left: 10%;
 
@@ -81,9 +107,12 @@ body {
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+
+}
+
 .just-product-images {
     border: solid;
-    color: #3e1010;
+    color: #3e1010; /*deep red*/
 
 
 }
@@ -107,8 +136,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     padding-top: 10px;
     padding-bottom: 50px;
-    color: black;
+    color:#3e1010 ;
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 
@@ -147,6 +177,10 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      border-color: black;
 }
 
+.modal {
+    color: gray;
+}
+
 
 /*instagram*/
 
@@ -183,7 +217,7 @@ h1 {
 
 .address {
     text-align: center;
-    display: inline-block;
+    display:block;
     margin:0;
 
 }
@@ -197,4 +231,8 @@ h1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.ethical {
+    color:white;
 }
