@@ -35,10 +35,10 @@
   </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                         <li class="nav-item"  > <a class="dropdown-item" href="#">Teabags</a></li>
-                           <li class="nav-item"  > <a class="dropdown-item" href="#">Loose Tea</a></li>
-                           <li class="nav-item"  > <a class="dropdown-item" href="#">Teaware</a></li>
-                           <li class="nav-item"  > <a class="dropdown-item" href="#">Giftboxes</a></li>
+                         <li class="nav-item"  > <a class="dropdown-item" href="#tea-bags">Teabags</a></li>
+                           <li class="nav-item"  > <a class="dropdown-item" href="#loose-tea">Loose Tea</a></li>
+                           <li class="nav-item"  > <a class="dropdown-item" href="#tea-ware">Teaware</a></li>
+                           <li class="nav-item"  > <a class="dropdown-item" href="#giftboxes">Giftboxes</a></li>
                         </div>
                     </div>
 
@@ -50,8 +50,10 @@
 
                 <ul class="navbar-nav ml-auto ">
 
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/sign-in">Sign-in/Sign-up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact" data-toggle="modal" data-target="#contactUsModal">Contact Us</a></li>
+                     <li class="nav-item"><a class="nav-link" href="/sign-up" data-toggle="modal" data-target="#signUpModal">Sign-up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/sign-in" data-toggle="modal" data-target="#signInModal">Sign-in</a></li>
+
                 </ul>
 </div>
 
@@ -119,7 +121,7 @@
 
 
 
-        <section class="purchase">
+        <section id="tea-bags" class="purchase">
 
             <div class="row">
                 <div class="col-12 col-sm-4 individual-purchase">
@@ -156,7 +158,7 @@
 
 
 
-            <div class="row">
+            <div id="loose-tea" class="row">
                 <div class="col-12 col-sm-4 individual-purchase">
 
                 </div>
@@ -197,7 +199,7 @@
             </div>
 
 
-            <div class="row">
+            <div id="tea-ware" class="row">
                 <div class="col-12 col-sm-4 individual-purchase">
 
                 </div>
@@ -234,7 +236,7 @@
 
 
 
-            <div class="row">
+            <div id="giftboxes" class="row">
 
                 <div class="col-12 col-sm-4 individual-purchase">
 
@@ -448,6 +450,80 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+      <div class="modal" tabindex="-1" role="dialog" id="signInModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign In!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="password1">Password</label>
+                            <input type="password" class="form-control" id="password1" placeholder="Choose password">
+                        </div>
+
+
+
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="modal" tabindex="-1" role="dialog" id="contactUsModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" id="firstName" placeholder="First Name">
+                            <input type="password" class="form-control" id="lastName" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+
+
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
     <!--/.Modal-->
 
