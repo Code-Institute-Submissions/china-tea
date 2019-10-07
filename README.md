@@ -89,7 +89,7 @@ __Note:__  All images were used for educational purposes only.
 
 Testing:
 
-html and css code tested using w3 validation markup service and amendments made
-Images of products tested as not working in the format of the original framework
+html and css code tested using w3 validation markup service and amendments made.
+Images of products tested as not working in the format of the original framework.
 Images of products put in ascending order with deep red border for improved definition and appearence.
 Image of free sample and text moved into jumbotron for improved design.

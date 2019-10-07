@@ -27,13 +27,14 @@ body {
 }
 
 .since {
+    color: #3e1010;
     position: relative;
-    left: 50%;
-    top: 10%;
+    left: 10%;
+
 }
 
 .lead-paragraph {
-    padding-top: 3vh;
+    padding-top: 5vh;
 }
 
 
@@ -74,7 +75,11 @@ body {
 
 }
 
-
+.media {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
 .just-product-images {
     border: solid;
@@ -91,9 +96,10 @@ body {
 }
 
 
+
 .purchase {
 
-    padding-top: 20vh;
+    padding-top: 60vh;
     padding-bottom: 10vh;
 }
 
@@ -145,8 +151,8 @@ body {
 /*instagram*/
 
 .instagram-container {
- 
-    
+
+
 }
 
 .instagram-pictures {
@@ -163,8 +169,8 @@ h1 {
 .fa-instagram   {
     padding-bottom: 20px;
     padding-top: 20px;
-    
-    
+
+
 }
 
 
@@ -178,7 +184,8 @@ h1 {
 .address {
     text-align: center;
     display: inline-block;
-  
+    margin:0;
+
 }
 
 
