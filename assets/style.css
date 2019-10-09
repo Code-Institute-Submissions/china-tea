@@ -129,7 +129,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .purchase {
 
-    padding-top: 60vh;
+    padding-top: 40vh;
     padding-bottom: 10vh;
 }
 
@@ -206,6 +206,11 @@ h1 {
     padding-top: 20px;
 
 
+}
+
+.social-media {
+    height: 20px;
+    color:black;
 }
 
 
