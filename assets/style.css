@@ -29,7 +29,7 @@ body {
     height: 100vh;
 
 
-    background: url("images/tea-2238290.jpg") no-repeat center center fixed;
+    background: url("images/tea-2238290-tiny.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,7 +80,7 @@ body {
 .buffer-container {
     height: 33vh;
 
-    background: url("images/tea-1869594.jpg") no-repeat center center fixed;
+    background: url("images/tea-1869594-tiny.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,7 +94,7 @@ body {
 .purchase-container {
 
 
-    background: url("images/traditional-chinese-3666268.jpg") no-repeat center center fixed;
+    background: url("images/traditional-chinese-3666268_1280-resolution-tiny.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -205,7 +205,7 @@ h1 {
 }
 
 .social-media {
-    padding-botton: 5px;
+    padding-botton: 10px;
     padding-top: 5px;
     color:white;
     margin:0;
@@ -239,4 +239,9 @@ h1 {
  background-color:#3e1010;
 }
 
+.footer-text {
+    color:white;
+    padding:0;
+    margin:0;
+}
 
