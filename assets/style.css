@@ -25,10 +25,19 @@ body {
 /*callout*/
 
 
+@media (max-width: 767px) {
+    .callout-container {
+
+    background: url("images/tea-2238290-tiny.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+@media (min-width:768px) {
 .callout-container {
     height: 100vh;
-
-
     background: url("images/tea-2238290-tiny.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +47,7 @@ body {
 
 
 }
-
+}
 .dropdown-menu-mobile {
     list-style-type: none;
     padding:0;
