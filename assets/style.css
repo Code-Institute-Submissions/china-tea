@@ -178,9 +178,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      border-color: black;
 }
 
-.modal {
-    color: gray;
-}
+
 
 
 /*instagram*/
@@ -188,7 +186,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .instagram-container {
 
     background-color: #3e1010;
-    border-radius: 20px;
+    border-radius: 15px;
 
 
 }
@@ -214,6 +212,11 @@ h1 {
 .social-media {
     height: 20px;
     color:black;
+}\
+
+
+.social-text {
+    color:white;
 }
 
 
@@ -233,7 +236,7 @@ h1 {
 
 
 .footer-container {
-    height: 20vh;
+    height: 4vh;
 
  background-color:#3e1010;
 }
