@@ -3,7 +3,7 @@
 
 Project One: User-Centric Frontend Development - Code Institute
 
-My idea here was to create a website where people who were interested in Chinese tea could be easily informed about the availability of both teas as well as tea-ware. I wanted it to be a simple "shop front" with clear concise information with an easy way to progress to a purchase  
+My idea here was to create a website where people who were interested in Chinese tea could be easily informed about the availability of both teas as well as tea-ware. I wanted it to be a simple "shop front" with clear concise information with an easy way to progress to a purchase
 ## UX
 
 
@@ -40,9 +40,9 @@ For wireframes used please see chinateacompany.pdf
 ### What are the features?
 
 1. A mobile first approach which allows for a faster loading time on a mobile device and a design that is expandable.
-2. Drop down menu 
+2. Drop down menu
 3. A main introductory landing page with navigation functions and basic company information.
-4. A callout section with images portraying the offerings of the company with a short description bolow of what they are. 
+4. A callout section with images portraying the offerings of the company with a short description bolow of what they are.
 5. Buttons for choosing each item
 6. A jumbotron signing up for a newsletter
 7. Instagram button with images from the instagram account of the company
@@ -50,6 +50,9 @@ For wireframes used please see chinateacompany.pdf
 9. Facebook, youtube and twitter links in the footer.
 
 
+wireframes mockups:
+
+https://github.com/andershup/china-tea/tree/master/wireframes
 
 
 
@@ -72,7 +75,7 @@ gift-box.jpg: https://cdn.pixabay.com/photo/2018/02/21/11/00/tea-box-3170045_960
 
 cup-tea.jpg: https://cdn.pixabay.com/photo/2017/05/15/06/28/tea-2313835_960_720.jpg
 
-cup-leafs.jpg: https://i0.wp.com/danjoteas.com/wp-content/uploads/2018/03/Yellow-Tea.jpg?zoom=2.625&resize=300%2C300&ssl=1  
+cup-leafs.jpg: https://i0.wp.com/danjoteas.com/wp-content/uploads/2018/03/Yellow-Tea.jpg?zoom=2.625&resize=300%2C300&ssl=1
 
 loose-tea: https://www.maelsoucaze.com/wp-content/uploads/2019/03/518865acf2326977bebb917f5cbadfc3.jpg
 
@@ -93,3 +96,21 @@ html and css code tested using w3 validation markup service and amendments made.
 Images of products tested as not working in the format of the original framework.
 Images of products put in ascending order with deep red border for improved definition and appearence.
 Image of free sample and text moved into jumbotron for improved design.
+
+
+Deployment:
+
+This project was developed using Cloud9 and Gitpod. In both casess all work was committed to Githup.
+It was deployed to Github Pages as follows:
+
+ 1. Log into Github
+ 2. Select the repository required.
+ 3. Select settings from the menu items.
+ 4. Scroll down to select Github Pages.
+ 5. "Master Branch" selected in the source dropdown link.
+ 6. The link to the website is now usable.
+
+
+Credits:
+
+Many thanks for the support and advice in creating this website to my mentor Simen Daehlin
