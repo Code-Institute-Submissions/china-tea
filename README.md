@@ -24,11 +24,7 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 As a traditional tea drinker I want to be made aware of teas from an origin which is different from the one I usually source my tea/tea-ware from. I want to be made aware of what is available and be able to move to a purchase with one click
 
 
-
-
-For wireframes used please see chinateacompany.pdf
-
-## Technologies
+### Technologies
 
 1. HTML
 2. CSS
@@ -90,7 +86,7 @@ __Note:__  All images were used for educational purposes only.
 
 
 
-Testing:
+### Testing:
 
 html and css code tested using w3 validation markup service and amendments made.
 Images of products tested as not working in the format of the original framework.
@@ -98,7 +94,7 @@ Images of products put in ascending order with deep red border for improved defi
 Image of free sample and text moved into jumbotron for improved design.
 
 
-Deployment:
+### Deployment:
 
 This project was developed using Cloud9 and Gitpod. In both casess all work was committed to Githup.
 It was deployed to Github Pages as follows:
@@ -111,6 +107,6 @@ It was deployed to Github Pages as follows:
  6. The link to the website is now usable.
 
 
-Credits:
+### Credits:
 
 Many thanks for the support and advice in creating this website to my mentor Simen Daehlin

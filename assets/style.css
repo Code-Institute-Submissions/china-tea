@@ -1,3 +1,9 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+
 /*body*/
 
 
@@ -7,9 +13,17 @@ body {
     font-family: 'Indie Flower', cursive;
     font-family: 'Source Code Pro', monospace;
 
+
 }
 
 /*Navbar*/
+
+.header {
+
+    background-color:pink;
+    height: 30px;
+    padding: 5px 25px;
+}
 
 .navbar li a {
     color:rgb(150, 29, 7);
@@ -26,15 +40,15 @@ body {
 
 
 @media (max-width: 767px) {
-    .callout-container {
-
-    background: url("images/tea-2238290-tiny.jpg") no-repeat center center fixed;
+.callout-container {
+    background: url("images/bamboo-1850195_1920-altimage.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 }
+
 @media (min-width:768px) {
 .callout-container {
     height: 100vh;
@@ -43,20 +57,16 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
-
 }
 }
+
 .dropdown-menu-mobile {
     list-style-type: none;
     padding:0;
-
 }
 
 .dropdown-item {
     color:#3e1010; /*deep red*/
-
 }
 
 .navbar-toggler-icon {
@@ -64,10 +74,9 @@ body {
 }
 
 .since {
-    color: #3e1010; /*deep red*/
+
     position: relative;
     left: 10%;
-
 }
 
 .lead-paragraph {
@@ -195,7 +204,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .instagram-container {
 
     background-color: #3e1010;
-    border-radius: 15px;
+    border-radius: 10px;
 
 
 }
