@@ -18,12 +18,9 @@ body {
 
 /*Navbar*/
 
-.header {
 
-    background-color:pink;
-    height: 30px;
-    padding: 5px 25px;
-}
+
+
 
 .navbar li a {
     color:rgb(150, 29, 7);
@@ -37,6 +34,10 @@ body {
 
 
 /*callout*/
+
+.callout-text {
+    margin:0;
+}
 
 
 @media (max-width: 767px) {
@@ -58,6 +59,10 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+}
+
+.nav-item {
+    text-transform: uppercase;
 }
 
 .dropdown-menu-mobile {
@@ -92,12 +97,12 @@ body {
 .discover-text {
 
     font-size:5em;
-    color:#3e1010;
+    color:#810505;
 }
 
 .lead {
   font-size: 2em;
-  color:silver;
+  color:white;
 }
 /*divider*/
 
@@ -263,6 +268,10 @@ h1 {
     display:block;
     margin:0;
 
+}
+
+.email a {
+    color:black;
 }
 
 
