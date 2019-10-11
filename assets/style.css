@@ -80,12 +80,25 @@ body {
     padding-top: 5vh;
 }
 
-.company-name {
+.company-name-text {
     color:black;
     font-size: 5em;
 }
 
+.since-text {
+    font-size: 2em;
+}
 
+.discover-text {
+
+    font-size:5em;
+    color:#3e1010;
+}
+
+.lead {
+  font-size: 2em;
+  color:silver;
+}
 /*divider*/
 
 
