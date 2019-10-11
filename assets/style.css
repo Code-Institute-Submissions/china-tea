@@ -52,7 +52,7 @@ body {
 @media (min-width:768px) {
 .callout-container {
     height: 100vh;
-    background: url("images/tea-2238290-tiny.jpg") no-repeat center center fixed;
+    background: url("images/yellow-tea-2443920_1920-altimage.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,14 +73,16 @@ body {
   color:red;
 }
 
-.since {
 
-    position: relative;
-    left: 10%;
-}
+
 
 .lead-paragraph {
     padding-top: 5vh;
+}
+
+.company-name {
+    color:black;
+    font-size: 5em;
 }
 
 
