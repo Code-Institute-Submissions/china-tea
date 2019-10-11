@@ -1,12 +1,15 @@
 body,html {
     height: 100%;
     margin: 0;
+
 }
 
 
 /*body*/
 
-
+.container-fluid {
+    padding:0;
+}
 
 body {
     margin:0;
@@ -18,7 +21,9 @@ body {
 
 /*Navbar*/
 
-
+.navbar {
+    text-transform: uppercase;
+}
 
 
 
