@@ -7,14 +7,12 @@ body,html {
 
 /*body*/
 
-.container-fluid {
+.row, .container-fluid {
     overflow-x: hidden;
     padding:0;
 }
 
-.body-container {
-    padding:0;
-}
+
 
 body {
     margin:0;
@@ -27,20 +25,20 @@ body {
 
 /*Navbar*/
 
-.navbar {
-    text-transform: uppercase;
-}
-
-
-
 .navbar li a {
     color:rgb(150, 29, 7);
 }
 
+.nav-item {
+    text-transform: uppercase;
+}
 
+.dropdown-item {
+    color:#3e1010; /*deep red*/
+}
 
-.contactUs {
-    padding-right:10em;
+.navbar-toggler-icon {
+  color:red;
 }
 
 
@@ -53,7 +51,7 @@ body {
 
 @media (max-width: 767px) {
 .callout-container {
-    background: url("images/yellow-tea-2443920_1920-altimage.jpg") no-repeat center center fixed;
+    background: url("images/landingbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,33 +62,13 @@ body {
 @media (min-width:768px) {
 .callout-container {
     height: 100vh;
-    background: url("images/yellow-tea-2443920_1920-altimage.jpg") no-repeat center center fixed;
+    background: url("images/landingbackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 }
-
-.nav-item {
-    text-transform: uppercase;
-}
-
-.dropdown-menu-mobile {
-    list-style-type: none;
-    padding:0;
-}
-
-.dropdown-item {
-    color:#3e1010; /*deep red*/
-}
-
-.navbar-toggler-icon {
-  color:red;
-}
-
-
-
 
 .lead-paragraph {
     padding-top: 5vh;
@@ -115,8 +93,8 @@ body {
   font-size: 2em;
   color:white;
 }
-/*divider*/
 
+/*divider*/
 
 .block-divider-lg {
     display: block;
@@ -124,32 +102,24 @@ body {
     height: 1vh;
 }
 
-
-
 .buffer-container {
     height: 33vh;
 
-    background: url("images/tea-1869594-tiny.jpg") no-repeat center center fixed;
+    background: url("images/bufferimage.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-
-
 /*purchase section*/
 
 .purchase-container {
-
-
-    background: url("images/traditional-chinese-3666268_1280-resolution-tiny.jpg") no-repeat center center fixed;
+    background: url("images/chinesegirl.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
 }
 
 .media {
@@ -158,42 +128,26 @@ body {
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-
-
 .just-product-images {
     border: solid;
     color: #3e1010; /*deep red*/
-
-
 }
-
-
 
 .selection-text {
     font-weight: bolder;
-
 }
 
-
-
 .purchase {
-
     padding-top: 40vh;
     padding-bottom: 10vh;
 }
 
 .purchase-text {
-
     padding-top: 10px;
     padding-bottom: 50px;
     color:#3e1010 ;
     font-weight: bolder;
-
 }
-
-
-
-
 
 .individual-purchase {
     text-align: center;
@@ -202,13 +156,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 }
 
-
-
-
-
 /*jumbotron*/
-
-
 
 .jumbotron {
     background-color: transparent
@@ -221,36 +169,25 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-
 .btn-sign-up:hover {
      background-color: #395d41;
      border-color: black;
 }
 
-
-
-
 /*instagram*/
 
 .instagram-container {
-
     background-color: #3e1010;
     border-radius: 10px;
-
-
 }
-
 
 h1 {
     font-weight: bolder;
 }
 
-
 .fa-instagram   {
     padding-bottom: 20px;
     padding-top: 20px;
-
-
 }
 
 .social-media {
@@ -258,17 +195,13 @@ h1 {
     padding-top: 5px;
     color:white;
     margin:0;
-
 }
-
 
 .social-text {
     color:white;
 }
 
-
 /*address*/
-
 .address-container {
     padding-top: 5vh;
     margin-bottom: 1em;
@@ -278,17 +211,14 @@ h1 {
     text-align: center;
     display:block;
     margin:0;
-
 }
 
 .email a {
     color:black;
 }
 
-
 .footer-container {
     height: 3vh;
-
  background-color:#3e1010;
 }
 
