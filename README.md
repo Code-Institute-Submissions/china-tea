@@ -4,9 +4,9 @@
 Project One: User-Centric Frontend Development - Code Institute
 
 My idea here was to create a website where people who were interested in Chinese tea could be easily informed about the availability of both teas as well as tea-ware. I wanted it to be a simple "shop front" with clear concise information with an easy way to progress to a purchase
-## UX
 
 
+## UX/UI
 
 ### What is this website for?
 
@@ -19,10 +19,13 @@ It provides a simple website where people who are interested in Chinese teas and
 can see what is available and buy from the online vendor. My goal in the design was to make it as easy as possible to access information on the site while maintaining a minimalist design.
 I also wanted to keep the layout as traditional as possible so as to allow the user to feel at home while navigating the site. The mobile first approach will be used in order to focus on this experience first and for a faster loading times mobile devices. The design will be expanded from here to suite larger viewports.
 
+- - - -
+
 ### User Stories:
 
-As a traditional tea drinker I want to be made aware of teas from an origin which is different from the one I usually source my tea/tea-ware from. I want to be made aware of what is available and be able to move to a purchase with one click
+* As a traditional tea drinker I want to be made aware of teas from an origin which is different from the one I usually source my tea/tea-ware from. I want to be made aware of what is available and be able to move to a purchase with one click
 
+- - - -
 
 ### Technologies
 
@@ -32,6 +35,7 @@ As a traditional tea drinker I want to be made aware of teas from an origin whic
 4. Font Awsome (5.1.1)
 5. W3 validation service
 
+- - - -
 
 ### What are the features?
 
@@ -50,7 +54,7 @@ wireframes mockups:
 
 https://github.com/andershup/china-tea/tree/master/wireframes
 
-
+- - - -
 
 ### media links:
 
@@ -81,7 +85,7 @@ https://yogamasti.co.uk/wp-content/uploads/2018/11/tea-1869594_960_720-162x220.j
 
 __Note:__  All images were used for educational purposes only.
 
-
+- - - -
 
 ### Testing:
 
@@ -90,7 +94,7 @@ __Note:__  All images were used for educational purposes only.
 * Images of products put in ascending order with deep red border for improved definition and appearence.
 * Image of free sample and text moved into jumbotron for improved design
 
-
+- - - -
 
 ### Deployment:
 
@@ -104,7 +108,15 @@ It was deployed to Github Pages as follows:
  5. "Master Branch" selected in the source dropdown link.
  6. The link to the website is now usable.
 
+- - - -
 
 ### Credits:
 
 Many thanks for the support and advice in creating this website to my mentor Simen Daehlin
+
+- - - -
+
+### Disclaimer:
+
+This website was created for educational purposes only
+
