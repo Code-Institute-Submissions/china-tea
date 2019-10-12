@@ -19,7 +19,7 @@ It provides a simple website where people who are interested in Chinese teas and
 can see what is available and buy from the online vendor. My goal in the design was to make it as easy as possible to access information on the site while maintaining a minimalist design.
 I also wanted to keep the layout as traditional as possible so as to allow the user to feel at home while navigating the site. The mobile first approach will be used in order to focus on this experience first and for a faster loading times mobile devices. The design will be expanded from here to suite larger viewports.
 
-- - - -
+
 
 ### User Stories:
 
@@ -40,7 +40,7 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 ### Technologies
 
 
-IDE: Cloud9 and Gitpod.
+IDE: [Cloud9](https://aws.amazon.com/cloud9/ "Cloud9") and [Gitpod](gitpod.io/ "Gitpod")
 
 1. HTML
 2. CSS
@@ -104,7 +104,7 @@ __Note:__  All images were used for educational purposes only.
 
 * [W3C CSS validation](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation")
 * [W3C Markup validation](https://validator.w3.org/ "W3C Markup Valitdation")
-*
+
 html and css code tested using w3 validation markup service and W3C CSS Validation.
 
 #### Manual (logical) testing of website:
@@ -145,7 +145,7 @@ It was deployed to Github Pages as follows:
  3. Select settings from the menu items.
  4. Scroll down to select Github Pages.
  5. "Master Branch" selected in the source dropdown link.
- 6. The link to the website is now usable.
+ 6. Link shown as active.
 
 - - - -
 
