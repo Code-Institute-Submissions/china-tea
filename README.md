@@ -39,7 +39,7 @@ As a traditional tea drinker I want to be made aware of teas from an origin whic
 2. Drop down menu
 3. A main introductory landing page with navigation functions and basic company information.
 4. A callout section with images portraying the offerings of the company with a short description bolow of what they are.
-5. Buttons for choosing each item
+5. Clickable product images for choosing individual items
 6. A jumbotron signing up for a newsletter
 7. Instagram button with images from the instagram account of the company
 8. The address for the company with a background image of the area
@@ -52,14 +52,11 @@ https://github.com/andershup/china-tea/tree/master/wireframes
 
 
 
-
-
-
-
-
 ### media links:
 
 Images:
+
+All images sourced from Pixabay.com
 
 camden-market-2377052.jpg: https://cdn.pixabay.com/photo/2017/06/06/11/56/camden-market-2377052_960_720.jpg
 
@@ -88,10 +85,11 @@ __Note:__  All images were used for educational purposes only.
 
 ### Testing:
 
-html and css code tested using w3 validation markup service and amendments made.
-Images of products tested as not working in the format of the original framework.
-Images of products put in ascending order with deep red border for improved definition and appearence.
-Image of free sample and text moved into jumbotron for improved design.
+* html and css code tested using w3 validation markup service and amendments made.
+* Images of products tested as not working in the format of the original framework.
+* Images of products put in ascending order with deep red border for improved definition and appearence.
+* Image of free sample and text moved into jumbotron for improved design
+
 
 
 ### Deployment:
