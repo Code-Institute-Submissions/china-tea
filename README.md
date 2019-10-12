@@ -1,10 +1,10 @@
 # China Tea Company
 
-
 Project One: User-Centric Frontend Development - Code Institute
 
 My idea here was to create a website where people who were interested in Chinese tea could be easily informed about the availability of both teas as well as tea-ware. I wanted it to be a simple "shop front" with clear concise information with an easy way to progress to a purchase
 
+- - - -
 
 ## UX/UI
 
@@ -24,16 +24,31 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 ### User Stories:
 
 * As a traditional tea drinker I want to be made aware of teas from an origin which is different from the one I usually source my tea/tea-ware from. I want to be made aware of what is available and be able to move to a purchase with one click
+* As a tea drinker with an ecletic taste I was a website the looks and feel niche where I can be informed of new options so that I can add new variety to my collection.
+* As a customer I was to buy tea from a vendor that is different from the standard commercial outlets where I can created an account and create an online relationship with a small specialised vendor.
+
+### Ideal Customer:
+
+* Aged thiry and above with a high level of disposable income and a willingness to spend on luxury items
+* A long standing history of tea drinking.
+* Active in reviewing products and services online.
+* Socialises in similar groups.
+*
 
 - - - -
 
 ### Technologies
+
+
+IDE: Cloud9 and Gitpod.
 
 1. HTML
 2. CSS
 3. Bootstrap (4.3.1.)
 4. Font Awsome (5.1.1)
 5. W3 validation service
+6. Tiny PNG
+
 
 - - - -
 
@@ -52,7 +67,7 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 
 wireframes mockups:
 
-https://github.com/andershup/china-tea/tree/master/wireframes
+[Wirefarmes](https://github.com/andershup/china-tea/tree/master/wireframes/ "Wireframes")
 
 - - - -
 
@@ -60,7 +75,7 @@ https://github.com/andershup/china-tea/tree/master/wireframes
 
 Images:
 
-All images sourced from Pixabay.com
+All images sourced from [Pixabay](http://pixabay.com "pixabay")
 
 camden-market-2377052.jpg: https://cdn.pixabay.com/photo/2017/06/06/11/56/camden-market-2377052_960_720.jpg
 
@@ -68,15 +83,13 @@ footer.jpg : https://cdn.pixabay.com/photo/2017/05/15/18/01/background-2315615_9
 
 tea-ware.jpg: https://cdn.pixabay.com/photo/2017/08/17/15/30/chinese-tea-2651717_960_720.jpg
 
-gift-box.jpg: https://cdn.pixabay.com/photo/2018/02/21/11/00/tea-box-3170045_960_720.jpg
+[giftbox](https://cdn.pixabay.com/photo/2018/02/21/11/00/tea-box-3170045_960_720.jpg/ "Giftbox")
 
 cup-tea.jpg: https://cdn.pixabay.com/photo/2017/05/15/06/28/tea-2313835_960_720.jpg
 
-cup-leafs.jpg: https://i0.wp.com/danjoteas.com/wp-content/uploads/2018/03/Yellow-Tea.jpg?zoom=2.625&resize=300%2C300&ssl=1
+ [Loose Tea](https://www.maelsoucaze.com/wp-content/uploads/2019/03/518865acf2326977bebb917f5cbadfc3.jpg/ "Loose Tea")
 
-loose-tea: https://www.maelsoucaze.com/wp-content/uploads/2019/03/518865acf2326977bebb917f5cbadfc3.jpg
-
-main-background.jpg: https://www.tryfoto.com/public/uploads/preview/green-tea-311533371002kdfwh8ammc.jpg
+main-background.jpg:
 
 samples.jpg: https://postroniepiekna.pl/uploads/images/Gallery/opazenia_herbata.jpg
 tea-bags: https://www.sustainability-times.com/wp-content/uploads/2018/04/tee_tea_bags_teas_drink_herbal_tea_fruit_tea_tea_box_box-815312-300x199.jpg
@@ -89,10 +102,36 @@ __Note:__  All images were used for educational purposes only.
 
 ### Testing:
 
-* html and css code tested using w3 validation markup service and amendments made.
+* [W3C CSS validation](https://jigsaw.w3.org/css-validator/ "W3C CSS Validation")
+* [W3C Markup validation](https://validator.w3.org/ "W3C Markup Valitdation")
+*
+html and css code tested using w3 validation markup service and W3C CSS Validation.
+
+#### Manual (logical) testing of website:
+
 * Images of products tested as not working in the format of the original framework.
 * Images of products put in ascending order with deep red border for improved definition and appearence.
 * Image of free sample and text moved into jumbotron for improved design
+* Loading time tested and images size reduced using Tiny PNG
+* The Navbar was tested as looking to complicated and imposing and was simplified and made transparent.
+* Hero image was tested as too dark and a lighter image was chose. This was to make the appearence lighter and the fonts more readable.
+* All links in the navbar,call to action buttons and social media links tested as active
+* Facebook, twitter and youtube links moved up and into the Instagram container for a simplified more accessable layout.
+
+All deployments were tested on the folowing:
+
+Hardware:
+* Desktop PC
+* Macbook Air
+* Iphone 10S
+* Samsung S10
+* Huawei tablet
+
+Software:
+
+* Google Chrome
+* Microsoft Edge
+* Apple Safari
 
 - - - -
 
