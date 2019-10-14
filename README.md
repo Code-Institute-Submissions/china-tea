@@ -8,13 +8,13 @@ My idea here was to create a website where people who were interested in Chinese
 
 ### What is this website for?
 
-It is a place to order Chinese tea and/or tea-ware online
+It is a place to order Chinese tea and/or tea-ware online.
 
 
 ### What does it do?
 
-It provides a simple website where people who are interested in Chinese teas and tea-ware
-can see what is available and buy from the online vendor. My goal in the design was to make it as easy as possible to access information on the site while maintaining a minimalist design.
+It provides a simple website where people who are interested in Chinese teas and tea-ware.
+The customer can see what is available and buy from the online vendor. My goal, in the design, was to make it as easy as possible to access information on the site while maintaining a minimalist design.
 I also wanted to keep the layout as traditional as possible so as to allow the user to feel at home while navigating the site. The mobile first approach will be used in order to focus on this experience first and for a faster loading times mobile devices. The design will be expanded from here to suite larger viewports.
 
 
@@ -38,8 +38,8 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 
 1. HTML
 2. CSS
-3. Bootstrap (4.3.1.)
-4. Font Awsome (5.1.1)
+3. Bootstrap
+4. Font Awsome
 5. W3 validation service
 6. Tiny PNG
 
@@ -93,13 +93,14 @@ The images files were also too large and it was affecting loading time on all fo
 Image of free sample and text moved into jumbotron for improved design
 The Navbar was tested as looking to complicated and imposing and was simplified and made transparent. All products placed in a dropdown link.
 The wireframes mockup pdf file was not loading so I deleted it and then uploaded again. Now works.
+HTML and CSS code tested for the final time using validator and was free of errors.
 
 
 After feedback from users the following things were changed:
 Hero image was tested as too dark and a lighter image was chose. This was to make the appearence lighter and the fonts more readable.
 All links in the navbar,call to action buttons and social media links tested as active
 The image used as a footer looked unnecesarry and a much simpler footer was put in it's place. Facebook, twitter and youtube links moved up and into the Instagram container for a simplified more accessable layout.
-
+A user reported that a small scroll bar appeared on his laptop to the right of the bufferimage.jpg. In the HTML the view height of 33 was changed to min view height and this seemed to solve the problem.
 
 All deployments were tested on the folowing:
 
@@ -125,12 +126,27 @@ Software:
 This project was developed using Cloud9 and Gitpod. In both casess all work was committed to Githup.
 It was deployed to Github Pages as follows:
 
+
  1. Log into Github
- 2. Select the repository required.
- 3. Select settings from the menu items.
- 4. Scroll down to select Github Pages.
- 5. "Master Branch" selected in the source dropdown link.
- 6. Link shown as active.
+ 2. Select **andershup/china-tea**
+ 3. Select **settings** from the menu items.
+ 4. Scroll down to the **Github Pages**.
+ 5. Under **Source** click the dropdownmenu labelled **none** and select **Master Branch**
+ 6. On selecting Master Branch the page is now automatically refreshed and the website is now deployed.
+
+
+### How to run this project locally
+​
+To clone this project from GitHub:
+1. At the top of this repository, click "Clone or download".
+2. In the Clone with HTTPs section, copy the clone URL for the repository.
+3. In your local IDE open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/andershup/china-tea
+```
+6. Press Enter. Your local clone will be created.
 
 - - - -
 
@@ -144,5 +160,5 @@ Many thanks for the support and advice in creating this website to my mentor [Si
 
 ### Disclaimer:
 
-This website was created for educational purposes only
+This website was created for educational purposes only.
 

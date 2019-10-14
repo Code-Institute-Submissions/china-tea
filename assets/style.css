@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower%7CSource+Code+Pro:400,700&display=swap');
+
 body,html {
     height: 100%;
     margin: 0;
@@ -25,8 +27,14 @@ body {
 
 /*Navbar*/
 
+.navbar {
+    position: sticky;
+}
+
 .navbar li a {
     color:rgb(150, 29, 7);
+    font-weight: 800;
+    font-size: 1.15rem;
 }
 
 .nav-item {
@@ -103,7 +111,7 @@ body {
 }
 
 .buffer-container {
-    height: 33vh;
+    min-height: 33vh;
 
     background: url("images/bufferimage.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
