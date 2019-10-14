@@ -62,8 +62,8 @@ I also wanted to keep the layout as traditional as possible so as to allow the u
 
 wireframes mockups:
 
-[Wirefarmes] "Wireframes")
 
+[Wireframes](https://github.com/andershup/china-tea/ "wireframes")
 
 - - - -
 
@@ -92,10 +92,14 @@ Images of products tested as not working in the format of the original framework
 The images files were also too large and it was affecting loading time on all formats. The largest files were re-sourced from Pixabay.com in a lower resolution. All imgages were then processed using TinyPNG to create smaller files. Loading time was tested and signigicantly improved.
 Image of free sample and text moved into jumbotron for improved design
 The Navbar was tested as looking to complicated and imposing and was simplified and made transparent. All products placed in a dropdown link.
+The wireframes mockup pdf file was not loading so I deleted it and then uploaded again. Now works.
+
+
 After feedback from users the following things were changed:
 Hero image was tested as too dark and a lighter image was chose. This was to make the appearence lighter and the fonts more readable.
 All links in the navbar,call to action buttons and social media links tested as active
-Facebook, twitter and youtube links moved up and into the Instagram container for a simplified more accessable layout.
+The image used as a footer looked unnecesarry and a much simpler footer was put in it's place. Facebook, twitter and youtube links moved up and into the Instagram container for a simplified more accessable layout.
+
 
 All deployments were tested on the folowing:
 
